@@ -1,0 +1,26 @@
+.spreadsheetTable iframe {
+    width: 650px;
+    height: 570px;
+}
+
+.row .employeeTable {
+    color: white;
+}
+
+.col-3 .list-group {
+    padding-right: 25px;
+}
+
+.list-group h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 20px darkgray;
+}
+
+.list-group li {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}

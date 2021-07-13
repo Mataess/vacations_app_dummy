@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    overflow: scroll;
+}
+
+body {
+    background: rgb(10,0,204);
+    background: linear-gradient(0deg, rgba(10,0,204,1) 66%, rgba(0,0,0,1) 100%); 
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar-container {
+    border-radius: 10px;
+}
+
+.input-append input{
+    box-shadow: 0px 0px 10px 1px #EBEBEB 
+    ;
+}
+
+img {
+    width: 250px;
+    height: 50px;
+    background-color: #e6f5ff;
+    display: inline;
+    float: right;
+    background: transparent;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+/* media */
+@media screen and (max-width: 768px) {
+    .row .col {
+        flex: 1 5 100%;
+        margin: 10px;
+        text-align: center;
+        
+    }
+
+    #mediaFlex {
+        flex: 1 0 100%;
+        padding: 10px;
+    }
+
+    .navbar-container .logo {
+        justify-content: center;
+        display: flex;
+    }
+}
