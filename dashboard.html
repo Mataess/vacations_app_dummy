@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/dashboard.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-datetimepicker.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    
+
+    <title>Vacations App</title>
+  </head>
+  <body>
+    <div class="navbar-container">
+      <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="./index.html"
+          >Overview</a
+        >
+        <a
+          class="flex-sm-fill text-sm-center nav-link"
+          
+          href="./requests.html"
+          >Requests</a
+        >
+        <a class="flex-sm-fill text-sm-center nav-link active"
+        aria-current="page"
+        href="#">Dashboard</a>
+        <div class="logo">
+          <img src="./assets/cool_company_logo.png" />
+        </div>
+      </nav>
+    </div>
+    <br />
+<div class="row">
+    <div class="col-9">
+        <table class="table employeeTable">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">ActiveEmployee</th>
+                <th scope="col">Allowance</th>
+                <th scope="col">Transferred</th>
+                <th scope="col">Requested</th>
+                <th scope="col">Remaining</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sandford Sharman</th>
+                <td>1</td>
+                <td>25</td>
+                <td>4,25</td>
+                <td>14,5</td>
+                <td>14,75</td>
+              </tr>
+              <tr>
+                <th scope="row">Oli Sergant</th>
+                <td>1</td>
+                <td>25</td>
+                <td>3</td>
+                <td>9</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <th scope="row">Emmalyn Adam</th>
+                <td>1</td>
+                <td>17,5</td>
+                <td>0</td>
+                <td>10,5</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <th scope="row">Gorden Coy</th>
+                <td>1</td>
+                <td>12,5</td>
+                <td>2</td>
+                <td>13</td>
+                <td>1,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Vivian Hunter</th>
+                <td>1</td>
+                <td>12,5</td>
+                <td>0</td>
+                <td>13</td>
+                <td>1,5</td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">Hendrix Rennel</th>
+                <td>1</td>
+                <td>22,5</td>
+                <td>10</td>
+                <td>0</td>
+                <td>32,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Chile Ray</th>
+                <td>1</td>
+                <td>25</td>
+                <td>0</td>
+                <td>11,5</td>
+                <td>13,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Lindon Morris</th>
+                <td>1</td>
+                <td>25</td>
+                <td>-1</td>
+                <td>0</td>
+                <td>24</td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">Daniel Carver</th>
+                <td>1</td>
+                <td>25</td>
+                <td>9,5</td>
+                <td>0</td>
+                <td>34,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Maverick Norman</th>
+                <td>1</td>
+                <td>25</td>
+                <td>6</td>
+                <td>16</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">Alita Granger</th>
+                <td>1</td>
+                <td>15</td>
+                <td>3</td>
+                <td>11</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <th scope="row">Glanville Queen</th>
+                <td>1</td>
+                <td>16,5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>16,5</td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">Robert May</th>
+                <td>1</td>
+                <td>25</td>
+                <td>4</td>
+                <td>2</td>
+                <td>27</td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">Sabrina Purcell</th>
+                <td>1</td>
+                <td>25</td>
+                <td>5</td>
+                <td>1,5</td>
+                <td>28,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Anthony Browne</th>
+                <td>1</td>
+                <td>25</td>
+                <td>6,5</td>
+                <td>19</td>
+                <td>12,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Dirk Weekes</th>
+                <td>1</td>
+                <td>20,5</td>
+                <td>6</td>
+                <td>1,5</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <th scope="row">Angelica Triggs</th>
+                <td>1</td>
+                <td>25</td>
+                <td>3,5</td>
+                <td>4</td>
+                <td>24,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Emberly Sims</th>
+                <td>1</td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <th scope="row">Jackie Nichols</th>
+                <td>1</td>
+                <td>25</td>
+                <td>0</td>
+                <td>14,5</td>
+                <td>10,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Corwin Henson</th>
+                <td>1</td>
+                <td>25</td>
+                <td>5</td>
+                <td>5</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <th scope="row">Smith Hudnall</th>
+                <td>1</td>
+                <td>25</td>
+                <td>5</td>
+                <td>5</td>
+                <td>25</td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">Zayden Mallory</th>
+                <td>1</td>
+                <td>25</td>
+                <td>6</td>
+                <td>2</td>
+                <td>29</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="col-3" id="mediaFlex">
+        <ul class="list-group">
+            <h2>Legend</h2>
+            <li class="list-group-item list-group-item-danger">Person overcharged vacation</li>
+            <li class="list-group-item table-primary">All vacation is used</li>
+            <li class="list-group-item">Normal - no issues</li>
+            <li class="list-group-item table-warning">Warning - Persons remaining vacation is higher than yearly allowance</li>
+          </ul>
+    </div>
+</div>
+
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>
